@@ -1,0 +1,8 @@
+---
+applications:
+  - name: go-tcp-listener
+    memory: 128M
+    instances: 1
+    disk_quota: 32M
+    buildpacks: [go_buildpack]
+    path: .
